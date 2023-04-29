@@ -16,6 +16,7 @@
 /* Font size of the root element */
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -26,6 +27,12 @@ body {
   color: var(--font-color);
 }
 
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: var(--font-color);
@@ -33,6 +40,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+/* Utility classes */
+.container {
+  margin: 0 1rem;
 }
 
 /* Navigation Bar */
@@ -81,4 +93,47 @@ ul {
   font-weight: 200;
   font-style: italic;
   color: #be3144;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #45567d;
+}
+
+.projects-section-header {
+  font-size: 4rem;
+  padding-top: 4rem;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 5.5rem;
+}
+
+.project {
+  margin-bottom: 3rem;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project-footer {
+  background-color: #303841;
+  text-align: center;
+  padding: 1.5rem 3rem;
+  margin-top: -.4rem;
+  border-radius: 0% 0% 3px 3px;
+}
+
+.project-footer span {
+  opacity: 0;
+  transition: opacity .3s;
+  color: #ff7f50;
+}
+
+.project a:hover span {
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.project-footer p {
+  font-size: 1.8rem;
 }
