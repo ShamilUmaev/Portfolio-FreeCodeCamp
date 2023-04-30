@@ -193,4 +193,22 @@ ul {
   transition: transform .3s ease-in-out;
 }
 
+#footer {
+  position: absolute;
+  padding: 0 4rem;
+  background-color: #303841;
+  text-align: center;
+}
+
+#footer p {
+  margin: 4rem 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#footer i {
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
 
