@@ -194,6 +194,7 @@ ul {
 }
 
 #footer {
+  width: 100%;
   position: absolute;
   padding: 0 4rem;
   background-color: #303841;
