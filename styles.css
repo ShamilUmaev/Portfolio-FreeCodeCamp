@@ -68,6 +68,10 @@ ul {
   font-size: 1.9rem;
 }
 
+.nav-bar a:hover {
+  background-color: #45567d;
+}
+
 /* Welcome Section */
 #welcome {
   width: 100%;
