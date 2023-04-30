@@ -118,13 +118,8 @@ ul {
 
 .projects-section-header {
   font-size: 4rem;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
   margin-bottom: 5.5rem;
-}
-
-.project {
-
-  
 }
 
 .project img {
@@ -154,6 +149,7 @@ ul {
   font-size: 1.8rem;
 }
 
+/* Show All Button */
 .btn {
   padding: 1rem 1.5rem;
   font-size: 1.9rem;
@@ -172,6 +168,7 @@ ul {
   transition: background-color .2s;
 }
 
+/* Contact Section */
 #contact {
   background-color: #303841;
   padding: 10rem 2rem;
@@ -209,6 +206,7 @@ ul {
   transition: transform .3s ease-in-out;
 }
 
+/* Footer */
 #footer {
   width: 100%;
   position: absolute;
@@ -244,6 +242,11 @@ ul {
 
   html {
     font-size: 70%;
+  }
+
+  .projects-section-header {
+    width: 50%;
+    margin: 0 auto 5.5rem;
   }
 
   .project {
