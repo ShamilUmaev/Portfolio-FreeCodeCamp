@@ -137,3 +137,42 @@ ul {
 .project-footer p {
   font-size: 1.8rem;
 }
+
+#contact {
+  background-color: #303841;
+  padding: 10rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid #be3144;;
+}
+
+.contact-section-header {
+  font-size: 3.8rem;
+}
+
+#contact p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.contact-links {
+  width: 80%;
+  margin: 2rem auto;
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-link {
+  margin: 1rem 1.5rem;
+  transform: translate(0, 0);
+  transition: transform .3s ease-in-out;
+}
+
+.contact-link:hover {
+  transform: translate(0, 6px);
+  transition: transform .3s ease-in-out;
+}
+
+
