@@ -98,11 +98,11 @@ ul {
 /* Projects Section */
 #projects {
   background-color: #45567d;
+  padding: 5rem 0 6rem;
 }
 
 .projects-section-header {
   font-size: 4rem;
-  padding-top: 4rem;
   border-bottom: 1px solid #f0f0f0;
   margin-bottom: 5.5rem;
 }
@@ -120,7 +120,7 @@ ul {
   text-align: center;
   padding: 1.5rem 3rem;
   margin-top: -.4rem;
-  border-radius: 0% 0% 3px 3px;
+  border-radius: 0 0 3px 3px;
 }
 
 .project-footer span {
@@ -136,6 +136,24 @@ ul {
 
 .project-footer p {
   font-size: 1.8rem;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  font-size: 1.9rem;
+  background-color: #303841;
+  color: var(--font-color);
+  border: none;
+  display: block;
+  margin: 5rem auto 0;
+  transition: background-color .2s;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #be3144;
+  cursor: pointer;
+  transition: background-color .2s;
 }
 
 #contact {
