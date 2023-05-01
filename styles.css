@@ -98,6 +98,7 @@ ul {
 
 .welcome-text {
   text-align: center;
+  animation: welcomeText .8s ease-in;
 }
 
 .welcome-text h1 {
@@ -226,6 +227,15 @@ ul {
 #footer i {
   text-decoration: underline;
   font-size: 1.2rem;
+}
+
+@keyframes welcomeText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media only screen and (min-width: 768px) {
