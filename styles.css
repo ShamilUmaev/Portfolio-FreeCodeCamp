@@ -77,10 +77,12 @@ ul {
   display: inline-block;
   padding: 1.8rem;
   font-size: 1.9rem;
+  transition: background-color .1s ease-in;
 }
 
 .nav-bar a:hover {
   background-color: #45567d;
+  transition: background-color .1s ease-in;
 }
 
 /* Welcome Section */
